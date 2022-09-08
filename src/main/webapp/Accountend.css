@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+*
+{
+    font-family:'Times New Roman', Times, serif;
+}
+.account_head
+{
+    margin-top:5%;
+    font-size:25px;
+    font-weight:bold;
+    margin-left:30%;
+}
+.account_head:hover
+{
+    color:#8FBC8F;
+}
+.account_detail
+{
+    background-color:whitesmoke;
+    border:1px groove grey;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    margin-left:30%;
+    margin-top:2%;
+    width:50%;
+}
+.account_title
+{
+   font-size:20px;
+   font-weight:bold;
+   margin-top:2%;
+   margin-left:10%;
+}
+.account_title_body
+{
+   margin-top:5%;
+   color:grey;
+   font-size:15px;
+   margin-left:10%;
+}

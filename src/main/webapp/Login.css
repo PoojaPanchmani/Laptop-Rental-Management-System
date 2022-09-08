@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+.login_div
+{
+    margin:100px 400px;
+    background-color:white;
+    border:1px groove whitesmoke;
+    border-radius:5px;
+}
+.login_title
+{
+    margin-top:20px;
+    font-size:20px;
+    color:black;
+    text-align:center;
+    font-weight:bold;
+}
+.login_detail_div
+{
+    margin-top:20px;
+    margin-left:20px;
+}
+.login_label
+{
+    margin-top:20px;
+    font-size:15px;
+    color:black;
+    font-weight:bold;
+    margin-left:30px;
+}
+.login_input
+{
+    font-size:15px;
+    color:grey;
+    margin-top:10px;
+    margin-left:20px;
+    width:80%;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.login_btn
+{
+    background-color:black;
+    width:75%;
+    height:35px;
+    margin:30px 40px;
+    font-size:20px;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    border:1px groove #8FBC8F;
+    border-radius:5px;
+    padding-bottom:5px;
+}
+.login_btn:hover
+{
+    background-color:grey;
+    color:black;
+}
+.create_account
+{
+    font-size:15px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.create_account_detail
+{
+	display:inline;
+}
+.create_account_text
+{
+    margin-left:15px;
+}
+.create_account_register
+{
+    text-decoration:none;
+    padding-left:40%;
+}
+.create_account_register:hover
+{
+    color:#2F4F2F;   
+}

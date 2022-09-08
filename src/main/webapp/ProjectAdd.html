@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Project</title>
+    <link href="css\bootstrap.min.css" rel="stylesheet">
+  <script src="js\bootstrap.bundle.min.js"></script> 
+</head>
+<style>
+.productadd_main_div
+{
+	margin-left:200px;
+	margin-top:50px;
+	background-color:lightgrey;
+	width:550px;
+	height:auto;
+}
+.productadd_header
+{
+      background-color:orange;
+      color:white;
+      height:50px;
+      font-size:20px;
+      font-weight:bold;
+}
+.productadd_header_title
+{
+      margin-left:40%;
+      padding-top:10px;
+}
+.productadd_body
+{
+      margin-top:20px;
+      margin-left:20px;
+}
+.productadd_title
+{
+    margin-top:20px;
+    font-size:15px;
+    color:black;
+    font-weight:bold;
+    margin-left:30px;
+}
+.productadd_value
+{
+    font-size:15px;
+    color:grey;
+    margin-top:10px;
+    height:30px;
+    margin-left:15px;
+    width:80%;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.productadd_btn
+{
+    background-color:orange;
+    width:75%;
+    height:35px;
+    margin:30px 40px;
+    font-size:20px;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    border:1px groove black;
+    border-radius:5px;
+    padding-bottom:5px;
+}
+.productadd_btn:hover
+{
+    background-color:whitesmoke;
+    color:orange;
+}
+</style>
+<body>
+<div class="container">
+<div class="productadd_main_div">
+<div class="productadd_header">
+<h5 class="productadd_header_title">Product Add</h5>
+</div>
+<div class="productadd_body">
+<form action="productbackend" method="post">
+<div class="productadd_title">
+<p>Product Name</p>
+</div>
+<input type="text" class="productadd_value" placeholder="" name="productname" autocomplete="off" required> 
+<div class="productadd_title">
+<p>Product Image</p>
+</div>
+<input type="text" class="productadd_value" placeholder="" name="productimage" autocomplete="off" required>
+<div class="productadd_title">
+<p>Product Rental Price</p>
+</div>
+<input type="number" class="productadd_value" placeholder="" name="productrentalprice" autocomplete="off" required> 
+<div class="productadd_title">
+<p>Product Original Price</p>
+</div>
+<input type="text" class="productadd_value" placeholder="" name="productoriginalprice" autocomplete="off" required>
+<input type="submit" class="productadd_btn" value="Submit">
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+.row
+{
+	width:100%;
+}
+.product_b
+{
+    background-color:white;
+    border:1px groove whitesmoke;
+    border-radius:5px;
+    width:50%;
+    height:auto;
+    font-family:'Times New Roman', Times, serif;
+    margin-top:20px;
+}
+.product_description_b
+{
+    color:#000000;
+    margin-top:10px;
+    font-size:15px;
+}
+.product_price_b
+{
+    color:black;
+    font-weight:bold;
+    font-size:15px;
+}
+.org_price_b
+{
+    color:grey;
+    font-size:15px;
+}
+.save_price_b
+{
+    color:#8FBC8F;
+    font-size:15px;
+}
+.buy_cart_b
+{
+    color:white;
+    float:right;
+    border:1px solid #8FBC8F;
+    border-radius:5px;
+    outline:none;
+    font-size:20px;
+    background-color:#8FBC8F;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.buy_cart_b:hover
+{
+    background-color:#2F4F2F;
+    transform:scale(1.05,1.05);
+    -webkit-transform:scale(1.05,1.05);
+    -moz-transform:scale(1.05,1.05);
+    -ms-transform:scale(1.05,1.05);
+    -o-transform:scale(1.05,1.05);  
+}

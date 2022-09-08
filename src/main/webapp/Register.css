@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+.register_main_div
+{
+	margin:0;
+	padding:0;
+}
+.register_div
+{
+	bacground-color:white;
+	border:1px groove whitesmoke;
+	border-radius:5px;
+	width:40%;
+	height:auto;
+	margin-top:5%;
+	margin-left:25%;
+}
+.register_head_div
+{
+    text-align:center;
+    width:100%;
+    border-radius:5px;
+    padding-top:0px;
+    height:40px;
+}
+.register_head_text
+{
+    font-size:25px;
+    color:black;
+    font-weight:bold;
+    padding-top:5px;
+}
+.register_detail_div
+{
+    margin-top:20px;
+    margin-left:20px;
+}
+.register_label
+{
+    margin-top:20px;
+    font-size:15px;
+    color:black;
+    font-weight:bold;
+    margin-left:30px;
+}
+.register_input
+{
+    font-size:15px;
+    color:grey;
+    margin-top:10px;
+    height:20px;
+    margin-left:15px;
+    width:80%;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.register_btn
+{
+    background-color:black;
+    width:75%;
+    height:35px;
+    margin:30px 40px;
+    font-size:20px;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    border:1px groove black;
+    border-radius:5px;
+    padding-bottom:5px;
+}
+.register_btn:hover
+{
+    background-color:grey;
+    color:black;
+}
+.already_account
+{
+    font-size:15px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.already_account_detail
+{
+	display:inline;
+}
+.already_account_text
+{
+    margin-left:15px;
+}
+.already_account_register
+{
+    text-decoration:none;
+    padding-left:40%;
+}
+.already_account_register:hover
+{
+    color:#2F4F2F;   
+}

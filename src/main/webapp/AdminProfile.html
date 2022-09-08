@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+    <link href="AdminPage.css" rel="stylesheet">
+    <link href="css\bootstrap.min.css" rel="stylesheet">
+  <script src="js\bootstrap.bundle.min.js"></script> 
+</head>
+<body>
+<div class="admin_page_main_div">
+<div class="row">
+<div class="col-4">
+<a href="/LaptopProject/registereduser">
+<button class="admin_page_btn">Registration User</button></a>
+</div>
+<div class="col-4">
+<a href="/LaptopProject/userorder">
+<button class="admin_page_btn">User Order List</button></a>
+</div>
+<div class="col-4">
+<div class="btn-group">
+<a href="/LaptopProject/productlist">
+<button class="admin_page_btn">Product List</button></a>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal">Edit</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal" id="mymodal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header text-white-50 bg-dark">
+<i><h5>Product Edit</h5></i>
+<button type="button" class="btn-info btn-close" data-bs-dismiss="modal"></button>
+</div>
+<div class="modal-body">
+<div class="productadd">
+<a href="/LaptopProject/ProjectAdd.html">
+<button type="button" class="btn btn-warning">ProductAdd</button>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+body
+{
+	background-image:url("https://wallpapercave.com/wp/28su9mp.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;	
+}
+.admin_page_main_div
+{
+	margin-top:200px;
+}
+.admin_page_btn
+{
+	margin-left:100px;
+	background-color:transparent;
+	border:5px groove #87CEFA;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+	border-radius:5px;	
+}
+.admin_page_btn:hover
+{
+	pointer:cursor;
+}
+.productadd
+{
+	margin:50px;
+}
+.edit_btn
+{
+	background-color:#00CED1;
+	color:grey;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Book Detail</title>
+  <link href="OrderDetail.css" rel="stylesheet">
+    <link href="css\bootstrap.min.css" rel="stylesheet">
+  <script src="js\bootstrap.bundle.min.js"></script> 
+</head>
+<body>
+<div class="container">
+        <div class="user_detail_div">
+            <h1 class="user_detail_head">Customer Detail</h1>
+            <form action="productorder" method="post">
+            <div class="row user_detail_label">
+                <div class="col-6">
+                    <label>First Name</label>
+                </div>
+                <div class="col-6">
+                    <label>Last Name</label>
+                </div>
+            </div>
+                <div class="row user_detail_input">
+                    <div class="col-6">
+                    <input type="text" name="firstname" placeholder=""
+                    autoComplete="off" required>
+                    </div>
+                    <div class="col-6">
+                    <input type="text" name="lastname" placeholder=""
+                    autoComplete="off" required>
+                    </div>
+                </div>
+            <div class="row user_detail_label">
+                <div class="col-6">
+                    <label>Email Address</label>
+                </div>
+                <div class="col-6">
+                    <label>Phone Number</label>
+                </div>
+            </div>
+            <div class ="row user_detail_input">
+                <div class="col-6">
+                <input type="email" name="email" placeholder=""
+                autoComplete="off" required>
+                </div>
+                <div class="col-6">
+                <input type="number" name="number" placeholder=""
+                autoComplete="off" required>
+                </div>
+            </div>
+            <div class="row user_detail_label">
+                <div class="col-6">
+                    <label>City</label>
+                </div>
+                <div class="col-6">
+                    <label>State</label>
+                </div>
+            </div>
+            <div class="row user_detail_input">
+                <div class="col-6">
+                <input type="text" name="city" placeholder=""
+                autoComplete="off" required>
+                </div>
+                <div class="col-6">
+                <input type="text" name="state" placeholder=""
+                autoComplete="off" required>
+                </div>
+            </div>
+            <div class="row user_detail_label">
+                <div class="col-6">
+                    <label>City Code</label>
+                </div>
+                <div class="col-6">
+                    <label>Full Address</label>
+                </div>
+            </div>
+            <div class="row user_detail_input">
+                <div class="col-6">
+                <input type="number" name="code" placeholder=""
+                autoComplete="off" required>
+                </div>
+                <div class="col-6">
+                <textarea name="address" placeholder="" row="10"
+                col="60" autoComplete="off" required></textarea>
+                </div>
+            </div>
+            <div class="row user_detail_label">
+                 <label>Home many days do You want to Book this Product</label>
+            </div>
+            <div class="row user_detail_input">
+            <input type="number" name="days" placeholder="" autoComplete="off" style="width:500px;margin-left:15px;" required>
+            </div>
+            <div>
+            <input type="submit" class="placeorder_btn" placeholder="PlaceOrder"></input>
+            </div> 
+            </form>   
+        </div>
+    </div>
+</body>
+</html>

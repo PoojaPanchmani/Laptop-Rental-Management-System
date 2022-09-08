@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+*
+{
+    font-family:'Times New Roman', Times, serif;
+    box-sizing:border-box;
+    top:0;
+    margin:0;
+}
+.error_field
+{
+    color:red;
+    font-size:15px;
+}
+.user_detail_div
+{
+    background-color:whitesmoke;
+    margin-left:10%;
+    margin-top:7%;
+    margin-right:20%;
+    border:2px groove whitesmoke;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.user_detail_head
+{
+    background-color:grey;
+    color:white;
+    font-size:23px;
+    font-weight:bold;
+    height:30px;
+    text-align:center;
+    padding-top:2px;
+}
+.user_detail_label
+{
+    padding-top:20px;
+    padding-left:15px;
+    color:grey;
+}
+.user_detail_input
+{
+    padding-left:15px;
+}
+.placeorder_btn
+{
+    background-color:black;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    border:1px groove grey;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    margin-left:5%;
+    margin-bottom:10%;
+    margin-top:20px;
+}

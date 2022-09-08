@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="Register.css" rel="stylesheet">
+<title>Register Page</title>
+<script>
+function validateForm()
+{
+	let pass = document.forms["Form"]["password"].value;
+	let cpass = document.forms["Form"]["cpassword"].value;
+	if(pass == cpass)
+		return true;
+	else
+	{
+		alert("Password and Conform Password are not matching");
+		return false;
+	}
+}
+</script>
+</head>
+<body>
+<div class="register_main_div">
+<div class="register_div">
+<div class="register_head_div">
+<p class="register_head_text">SignUp</p>
+</div>
+<form name="Form" action="data"  onsubmit="return(validateForm())" method="post">
+<div class="register_detail_div">
+<label class="register_label">Your Name</label>
+<input type="text" class="register_input" placeholder="" name="name" autoComplete="off" required>
+</div>
+<div class="register_detail_div">
+<label class="register_label">Your Email</label>
+<input type="email" class="register_input" placeholder="" name="email" autoComplete="off" required>
+</div>
+<div class="register_detail_div">
+<label class="register_label">Your Mobile Number</label>
+<input type="number" class="register_input" placeholder="" name="number" autoComplete="off" required>
+</div>
+<div class="register_detail_div">
+<label class="register_label">Your Password</label>
+<input type="password" class="register_input" placeholder="" name="password" autoComplete="off" required>
+</div>
+<div class="register_detail_div">
+<label class="register_label">Your Confirm Password</label>
+<input type="password" class="register_input" placeholder="" name="cpassword" autoComplete="off" required>
+</div>
+<input type="submit" class="register_btn" name="submit" value="Submit">
+</form>
+<div class="already_account">
+<p class="already_account_text already_account_detail">New Customer</p>
+<a href="/LaptopProject/Login.html" class="already_account_detail already_account_register">Already have an account</a>
+</div>
+</div>
+</div>
+</body>
+</html>
